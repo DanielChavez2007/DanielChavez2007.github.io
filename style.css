@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.menu {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    float: left;
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.menu li a:hover {
+    background-color: #575757;
+}
+
+
+
+
+
+header{
+background-color: #333;
+padding: 5%;
+color: white;
+
+}
+
+.first{
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.second{
+    text-align: center;
+    font-style: italic;
+}
+
+.contenedor {
+      display: flex;
+      align-items: center; /* centra verticalmente */
+      gap: 20px; /* espacio entre imagen y texto */
+      padding: 20px;
+    }
+
+    .contenedor img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px; /* opcional */
+    }
+
+    .contenedor .texto {
+      max-width: 500px;
+      font-family: Arial, sans-serif;
+      font-style: italic;
+    }
+
+    @media (max-width: 768px) {
+      .contenedor {
+        flex-direction: column; /* apila verticalmente en celulares */
+        text-align: center;
+      }
+
+      .texto {
+        margin-top: 15px;
+      }
+    }
+
+    .contenedor-2{
+        background-color: #333;
+        color: white;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 20px;
+        padding: 2%;
+    }
+
+    h2{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .parr{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+
+    

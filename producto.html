@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="producto.css">
+</head>
+<body>
+    <div class="menu">
+        <ul>
+        <li><a href="index.html">Inicio</a></li>
+          <li><a href="manuales.html">Manuales</a></li>
+            <li><a href="producto.html">Producto</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+    </div>
+<br><br>
+    <h1>BOTON DE PANICO PORTATIL</h1>
+
+    <h4>Contexto Actual</h4>
+
+    <details class="acordeon">
+  <summary>Ver texto completo</summary>
+   <p>En México, la percepción de inseguridad se ha incrementado significativamente en los
+últimos años, afectando la calidad de vida de la población. Según datos del Instituto
+Nacional de Estadística y Geografía (INEGI), en diciembre de 2024, el 61.7% de la
+población de 18 años y más consideró inseguro vivir en su ciudad. Este sentimiento
+de inseguridad es más pronunciado en ciertos grupos demográficos: 67.8% de las
+mujeres y 54.4% de los hombres manifestaron sentirse inseguros en sus localidades.
+Además, el informe destaca que las ciudades con mayores índices de
+percepción de inseguridad son Villahermosa (95.3%), Uruapan (92.5%), Fresnillo
+(90.9%), Culiacán Rosales (90.6%), Tuxtla Gutiérrez (90.6%) y Tapachula (90.1%).
+Estos datos reflejan un problema generalizado que no se limita a una sola región, sino
+que afecta a gran parte del territorio nacional.
+Por otro lado, los espacios públicos también son percibidos como focos de
+inseguridad. El 68.9% de la población manifestó sentirse insegura en los cajeros
+automáticos ubicados en la vía pública, mientras que el 63% expresó temor al utilizar
+el transporte público. Estas cifras evidencian la necesidad de implementar soluciones
+que brinden mayor seguridad a las personas en su vida cotidiana.
+En este contexto, la tecnología se ha convertido en una herramienta clave para
+abordar problemas de seguridad y emergencias. Dispositivos como los botones de
+pánico y aplicaciones móviles han ganado relevancia, ya que permiten a los usuarios
+solicitar ayuda de manera inmediata en situaciones de peligro. Sin embargo, muchas
+de estas soluciones son costosas o no están adaptadas a las necesidades específicas
+de la población mexicana. Este escenario justifica la necesidad de desarrollar un botón de pánico
+portátil accesible y eficaz, que permita a los usuarios alertar a sus contactos de
+emergencia en situaciones de peligro. La implementación de tecnologías como
+Arduino, combinada con el desarrollo de una plataforma web para distribución de
+código y documentación, demuestra la aplicación integral de competencias técnicas
+adquiridas en la carrera de Técnico en Desarrollo de Software, abarcando desde
+programación embebida hasta desarrollo web.</p>
+</details>
+
+ 
+
+<h4>Problematica</h4>
+
+<details class="acordeon">
+  <summary>Ver texto completo</summary>
+  <p>La inseguridad y los delitos, como los asaltos y robos, continúan siendo problemas
+recurrentes en las distintas regiones de México, generando un constante estado de
+preocupación y temor entre la población. Esta problemática ha llegado a normalizarse
+dentro de la sociedad, lo que resulta aún más alarmante, ya que no se está tomando
+la magnitud de la situación con la seriedad que merece.
+Los delitos como la delincuencia, robos y asaltos no solo afectan a individuos,
+sino que también impactan a organizaciones. El robo de objetos personales, así como
+de otros bienes de valor (como dispositivos electrónicos, documentos importantes,
+entre otros), no solo causa pérdidas económicas, sino también sentimientos de
+frustración, impotencia y vulnerabilidad en las víctimas. En algunos casos, los objetos
+robados pueden tener un valor sentimental irremplazable, lo que agrava aún más el
+impacto emocional del delito.
+Las personas que han experimentado estos eventos y aquellas que viven con
+el temor de ser víctimas en el futuro, a menudo buscan herramientas o dispositivos
+que les permitan contactar rápidamente a sus seres queridos o autoridades en caso
+de emergencia. Sin embargo, las opciones disponibles para alertar en situaciones de
+peligro son limitadas, y las soluciones existentes no siempre son lo suficientemente
+rápidas o efectivas. Por lo tanto, un dispositivo como un botón de pánico, que facilite
+el envío inmediato de una alerta con la ubicación del usuario, podría ser una
+herramienta invaluable para mejorar la seguridad y garantizar una respuesta más
+rápida ante cualquier amenaza.</p>
+
+</details>
+
+<h4>Componentes del producto</h4>
+  
+ <details class="acordeon">
+  <summary>Ver texto completo</summary>
+ <p>Módulo GPS: Este componente es responsable de obtener la ubicación
+geográfica del usuario. Permite determinar las coordenadas de longitud y latitud con
+precisión, lo que garantiza que la alerta enviada incluya información exacta sobre la
+ubicación del incidente.
+Módulo GSM: Este módulo es clave para la comunicación, ya que permite
+enviar un mensaje de texto con la alerta de emergencia a los contactos de emergencia
+registrados. Utiliza la red móvil para enviar la notificación rápidamente.
+12
+Botón de pánico: Es el componente físico que el usuario debe presionar en
+caso de emergencia. Al presionarlo, activa los módulos GPS y GSM para realizar la
+notificación de emergencia. 
+Plataforma Arduino: Es la placa de desarrollo que coordina todos los
+componentes del dispositivo. Arduino gestiona el flujo de datos entre el botón, el
+módulo GPS y el módulo GSM, y asegura que la alerta se envíe correctamente.
+Página web para gestión del proyecto: Se desarrollará una plataforma web
+con HTML y CSS que permitirá a los usuarios iniciar sesión para acceder a
+documentación exclusiva, descargar el código fuente del botón de pánico junto con
+instrucciones detalladas, y visualizar información técnica como requisitos de hardware
+y esquemas de conexión.
+Tecnologías asociadas
+Arduino: Se utilizarán las bibliotecas y módulos de Arduino para programar y
+controlar los componentes del dispositivo, como el botón de pánico, el módulo GPS y
+el módulo GSM.
+HTML/CSS: Para el desarrollo de la página web estática que alojará la
+documentación del proyecto, instrucciones de configuración y enlace de descarga del
+código.
+Google Maps: Las coordenadas de ubicación obtenidas por el módulo GPS
+serán enviadas a través de un enlace que dirige a los contactos a Google Maps, donde
+podrán ver la ubicación exacta del usuario en un mapa interactivo.</p>
+
+</details>
+
+
+
+
+<h4>Resultados esperados</h4>
+
+<details class="acordeon">
+  <summary>Ver texto completo</summary>
+  <p>El objetivo principal de esta innovación es proporcionar una herramienta
+accesible, confiable y fácil de usar para alertar a los contactos de emergencia en
+situaciones de riesgo. Al presionar el botón de pánico, el usuario podrá enviar una
+alerta inmediata con su ubicación exacta, lo que permitirá una respuesta rápida de sus
+contactos o autoridades.
+13
+Se espera que este dispositivo mejore la seguridad personal, ofreciendo una
+solución práctica y efectiva para quienes buscan una manera rápida de comunicarse
+en situaciones críticas. Además, la plataforma web permitirá a los usuarios descargar
+el código fuente completo del proyecto, acceder a instrucciones detalladas de
+configuración y consultar manuales de uso, facilitando la implementación
+personalizada del sistema sin requerir conocimientos técnicos avanzados.</p>
+
+</details>
+
+<h4>Impacto del producto</h4>
+
+<details class="acordeon">
+  <summary>Ver texto completo</summary>
+  <p>
+    El botón de pánico portátil tiene el potencial de generar un impacto significativo en
+diversas áreas, tanto a nivel personal como comunitario.
+Desde el punto de vista técnico, este proyecto permite a los estudiantes de la
+carrera de Desarrollo de Software aplicar y expandir sus conocimientos en áreas como
+programación, manejo de hardware (Arduino) y desarrollo web. Al integrar
+componentes como el módulo GPS y el módulo GSM en un dispositivo funcional, el
+proyecto también contribuye al desarrollo de soluciones tecnológicas innovadoras para
+la seguridad personal.
+El desarrollo de la plataforma web representa un avance técnico significativo al
+ofrecer una interfaz intuitiva para acceder a documentación completa, descargar el
+código fuente y consultar guías detalladas, lo que permite a los usuarios implementar
+y personalizar el sistema sin requerir conocimientos técnicos especializados.
+En el ámbito económico, el dispositivo está diseñado para ser accesible y de
+bajo costo. Al utilizar componentes económicos como Arduino, módulos GPS y GSM,
+y aprovechar tecnologías de fácil acceso como HTML/CSS para la web, el costo de
+producción del botón de pánico se mantiene bajo. Esto lo convierte en una solución
+económica para una amplia gama de usuarios que necesitan un dispositivo de
+seguridad personal, sin importar su nivel socioeconómico.
+Además, la facilidad de implementación y la escalabilidad del proyecto hacen
+posible su producción en masa a un costo reducido, lo que permite que más personas
+puedan acceder a esta herramienta de seguridad.
+El impacto social del proyecto es uno de los más importantes. La inseguridad
+es un problema creciente en muchas comunidades, y el botón de pánico portátil
+proporciona una herramienta rápida y eficaz para alertar a los contactos de emergencia
+en situaciones críticas. Este dispositivo tiene el potencial de mejorar la seguridad
+personal, especialmente en lugares de alto riesgo, como calles poco iluminadas,
+parques o áreas de difícil acceso.
+Al ofrecer una solución sencilla y accesible, el proyecto tiene el objetivo de
+reducir los riesgos de violencia y delitos, lo que contribuiría a una mayor sensación de seguridad en la comunidad. Además, puede ofrecer una respuesta inmediata en
+situaciones de emergencia, lo que aumenta las probabilidades de intervención y ayuda
+a prevenir daños mayores.
+Desde un punto de vista organizacional, el proyecto puede ser un catalizador
+para futuras innovaciones en la creación de dispositivos de seguridad personal. Al
+demostrar la viabilidad de una solución accesible y de bajo costo, el proyecto podría
+inspirar a otras organizaciones, instituciones educativas o empresas a desarrollar y
+promover tecnologías similares para la seguridad ciudadana.
+La implementación de esta plataforma web sienta las bases para un sistema
+escalable, permitiendo futuras integraciones con servicios externos y la posible
+incorporación de funcionalidades avanzadas mediante la expansión del código abierto
+disponible.
+Aunque el impacto ambiental directo del proyecto es limitado, es importante
+mencionar que al utilizar componentes electrónicos fácilmente disponibles y de bajo
+costo, se minimiza el uso de materiales raros o costosos que podrían tener un impacto
+negativo en el medio ambiente. Además, al ser un dispositivo portátil y
+energéticamente eficiente, su uso no genera una carga significativa para el medio
+ambiente.  </p>
+</details>
+<p></p>
+</body>
+</html>
